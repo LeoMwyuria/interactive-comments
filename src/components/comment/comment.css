@@ -1,0 +1,143 @@
+.comment{
+    padding: 8px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 343px;
+border-radius: 7px;
+margin-top: 10px;
+
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p1{
+    width: 300px;
+    height: auto;
+}
+.upvote{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 60px;
+    align-items: center;
+    height: 30px;
+    
+font-size: 16px;
+font-weight: 400;
+line-height: 18.96px;
+text-align: center;
+color: rgba(83, 87, 182, 1);
+border-radius: 5px;
+padding: 2px;
+padding-left: 5px;
+padding-right: 5px;
+background: rgba(245, 246, 250, 1);
+
+;
+}
+.replyComment{
+    width: 200px;
+}
+.sub:hover{
+    cursor: pointer;
+}
+.plus:hover{
+    cursor: pointer;
+}
+.replyDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reply{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgba(83, 87, 182, 1);
+
+    justify-content: space-between;
+}
+.reply:hover{
+    cursor: pointer;
+}
+.deleteEdit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete{
+    gap: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit{
+    gap: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit:hover{
+    cursor: pointer;
+}
+.delete:hover{
+    cursor: pointer;
+}
+.deleteEdit2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.replySend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media screen and (min-width:810px){
+    .replySend{
+        position: relative;
+        bottom: 70px;
+    }
+    .comment{
+        padding: 15px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 760px;
+    border-radius: 7px;
+    margin-top: 10px;
+    
+    }
+    .replyInput{
+        width: 550px;
+        position: relative;
+        right: 100px;
+        z-index: 2;
+    }
+    .replyDiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .reply{
+       
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: rgba(83, 87, 182, 1);
+    
+        justify-content: space-between;
+    }
+    .p1{
+        width: 700px;
+        height: auto;
+    }
+    .comments{
+        overflow-x: hidden;
+    }
+}
